@@ -14,5 +14,5 @@ This is an interactive data dashboard built using **Preswald** to visualize top 
 
 ---
 
-## 📁 Project Structure
+
 
