@@ -1,0 +1,23 @@
+[project]
+title = "Influencer Insights Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "influencer-insights"
+entrypoint = "hello.py"
+
+[branding]
+name = "Influencer Insights"
+logo = "images/logo.png"           # Optional (visible if you use sidebar)
+favicon = "images/favicon.ico"     # Set your custom favicon
+primaryColor = "#6C5DD3"           # Optional: Brand color (visible with sidebar)
+accentColor = "#FF6B6B"            # Optional: Accent color (e.g., buttons)
+textColor = "#333333"              # Optional: Default text color
+backgroundColor = "#FFFFFF"        # Optional: Main background color
+
+[data.Top_Influencers_Modified]
+type = "csv"
+path = "data/Top_Influencers_Modified.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
